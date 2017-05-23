@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <table name="book">
+        <column>id</column>
+        <column>name</column>
+        <column>text</column>
+        <row>
+            <value>1</value>
+            <value>bookName1</value>
+            <value>bookText1</value>
+        </row>
+        <row>
+            <value>2</value>
+            <value>bookName2</value>
+            <value>bookText2</value>
+        </row>
+        <row>
+            <value>3</value>
+            <value>bookName3</value>
+            <value>bookText3</value>
+        </row>
+        <row>
+            <value>4</value>
+            <value>bookName4</value>
+            <value>bookText4</value>
+        </row>
+    </table>
+    <table name="author">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>1</value>
+            <value>Author1</value>
+        </row>
+        <row>
+            <value>2</value>
+            <value>Author2</value>
+        </row>
+        <row>
+            <value>3</value>
+            <value>Author3</value>
+        </row>
+    </table>
+    <table name="book_author">
+        <column>book_id</column>
+        <column>author_id</column>
+        <row>
+            <value>1</value>
+            <value>1</value>
+        </row>
+        <row>
+            <value>1</value>
+            <value>2</value>
+        </row>
+        <row>
+            <value>2</value>
+            <value>2</value>
+        </row>
+        <row>
+            <value>2</value>
+            <value>3</value>
+        </row>
+        <row>
+            <value>3</value>
+            <value>3</value>
+        </row>
+        <row>
+            <value>3</value>
+            <value>2</value>
+        </row>
+    </table>
+</dataset>
